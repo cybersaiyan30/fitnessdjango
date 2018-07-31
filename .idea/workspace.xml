@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bea0724-8a62-403f-a882-42d2a69b76a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribe/static/subscribe/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/subscribe/static/subscribe/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribe/templates/subscribe/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscribe/templates/subscribe/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribe/templates/subscribe/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscribe/templates/subscribe/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribe/templates/subscribe/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscribe/templates/subscribe/registration.html" afterDir="false" />
-    </list>
+    <list default="true" id="5bea0724-8a62-403f-a882-42d2a69b76a9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +69,7 @@
     <session id="1504994580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -137,7 +131,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/subscribe/templates/subscribe/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="186">
               <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
@@ -211,7 +205,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="839" />
@@ -343,7 +337,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -553,7 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/subscribe/templates/subscribe/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="186">
           <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
