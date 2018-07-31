@@ -1,0 +1,23 @@
+#firstdietheading{
+padding-top:50px;
+}
+.col-md-12{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.dietimages{
+    width: 600px;
+    height: 400px;
+    padding-top: 0px;
+}
+.col-md-6{
+    padding-bottom: 30px;
+}
+.display-4{
+    align-items: center;
+    margin: auto;
+}
+.jumbotron-fluid{
+        background-image: url('images/diet/dietbackground.jpg');
+        font-weight: bolder;
+}

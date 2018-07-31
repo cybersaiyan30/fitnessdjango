@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="db" uuid="b8400103-c015-48dd-92b6-1578c0325acb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
+      <introspection-schemas>*:</introspection-schemas>
+    </data-source>
+    <data-source name="db [2]" uuid="9d6d9eb7-4a36-4231-84fa-9b3fcc1c0b3c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
+    </data-source>
+    <data-source name="db [3]" uuid="4c0ed166-c172-4b8e-aaa7-0858a41ab664">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
+    </data-source>
+    <data-source name="db [4]" uuid="47ec0835-ed79-4e15-8017-9c3ed9f03c4d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
+    </data-source>
+    <data-source name="db [5]" uuid="900dc829-3824-4489-9d0c-443956614d36">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="SQLITE" exact-version="0.0" />
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,85 @@
+body{
+background-color: black;
+}
+#workoutjumbotron{
+    background-image: url("images/workoutbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size:100%;
+    color: rgba(19, 20, 24, 0.712);
+    text-align: center;
+}
+
+#mencontainer{
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+
+#womencontainer{
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.imagesteve{
+  opacity: 1;
+  display: block;
+  max-width: 100%;
+  max-height:500px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.text{
+    background-color:rgb(58, 129, 153);
+    color: white;
+    font-size: 40px;
+    padding: 20px 40px;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+#mencontainer:hover .imagesteve{
+    opacity: 0.5;
+}
+#mencontainer:hover .middle{
+    opacity: 1.0;
+}
+#womencontainer:hover .imagesteve{
+    opacity: 0.5;
+}
+#womencontainer:hover .middle{
+    opacity: 1.0;
+}
+#submencontainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("images/men/mentextbackground.jpg");
+}
+
+#subwomencontainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("images/men/mentextbackground.jpg");
+}
+.workoutimages{
+    float: right;
+    width: 75%;
+}
+.workouttext{
+    margin-left: 10px;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgba(176, 188, 228, 0.719);
+}
