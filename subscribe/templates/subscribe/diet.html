@@ -24,6 +24,7 @@
                     <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="col-md-9">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="/subscribe/">HOME</a>
@@ -32,18 +33,51 @@
                         <a class="nav-link" href="/subscribe/men/">WORKOUTS</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link active" href="/subscribe/diet/">DIETS</a>
+                        <a class="nav-link" href="/subscribe/diet/">DIETS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/subscribe/store/">STORE</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
                 </ul>
+                </div>
+                <div class="col-md-3">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://web.telegram.org/#/im?p=@dfit_bot">
+                            <button type="button" class="btn btn-success mx-2">
+                                Talk to us!
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/subscribe/register/">
+                        <button type="button" class="btn btn-success mx-2">
+                        Register
+                        </button>
+                        </a>
+                    </li>
+
+                    {% if user.is_authenticated %}
+                     <li class="nav-item">
+                     <a href="/logout/">
+                     <button type="button" class="btn btn-info mx-2">
+                        Logout
+                     </button>
+                     </a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                     <a href="/subscribe/user_login/">
+                        <button type="button" class="btn btn-info mx-2">
+                                Login
+                        </button>
+                     </a>
+                    </li>
+                    {% endif %}
+                </ul>
+                </div>
             </div>
         </nav>
-
     {% for diet in diet_list %}
         <div class="container-fluid">
             <div class="row" id="firstdietheading">
